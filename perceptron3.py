@@ -2,7 +2,7 @@
 """
 Created on Sun Dec 30 15:14:52 2018
 
-Aula 14 e 15  - Curso Redes Neurais
+Aula 14, 15 e 16  - Curso Redes Neurais
 
 @author: Luiz Paulo
 """
@@ -38,3 +38,10 @@ def treinar():
 
 
 treinar()        
+print("Rede neural treinada")
+
+print(calculaSaida(entradas[0]))
+print(calculaSaida(entradas[1]))
+print(calculaSaida(entradas[2]))
+print(calculaSaida(entradas[3]))
+
