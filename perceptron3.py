@@ -9,8 +9,18 @@ Aula 14, 15 e 16  - Curso Redes Neurais
 
 import numpy as np
 
+#operador and
+#entradas = np.array([[0,0], [0,1], [1,0], [1,1]])
+#saidas = np.array([0, 0, 0, 1])
+
+#operador or
 entradas = np.array([[0,0], [0,1], [1,0], [1,1]])
-saidas = np.array([0, 0, 0, 1])
+saidas = np.array([0, 1, 1, 1])
+
+#não serviu para o operador xor
+#entradas = np.array([[0,0], [0,1], [1,0], [1,1]])
+#saidas = np.array([0, 1, 1, 0])
+
 pesos = np.array([0.0, 0.0])
 taxaAprendizagem = 0.1
 
