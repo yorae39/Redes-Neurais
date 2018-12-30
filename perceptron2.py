@@ -15,7 +15,6 @@ def soma (e, p):
   # dot product / produto escalar
   return e.dot(p)
 
-        
 s = soma(entradas, pesos)        
 
 print("O valor da soma é : ", s)
