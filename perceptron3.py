@@ -43,7 +43,7 @@ def treinar():
             erroTotal += erro
             for j in range(len(pesos)):
                 pesos[j] = pesos[j] + (taxaAprendizagem * entradas[i][j] * erro)
-                print("Pesso atualizado" + str(pesos[j]))
+                print("Pesso atualizado " + str(pesos[j]))
         print("Total de erros "+str(erroTotal))
 
 
